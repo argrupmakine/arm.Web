@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "kurumsal": "KURUMSAL",
+    "uretim": "ÜRETİM HATLARI",
+    "sektorler": "SEKTÖRLER",
+    "arge": "AR-GE",
+    "referanslar": "REFERANSLAR",
+    "haberler": "HABERLER",
+    "iletisim": "İLETİŞİM"
+  },
+  "ui": {
+    "detail": "Detay",
+    "more_detail": "Daha Fazla Detay",
+    "contact_us": "Bizimle İletişime Geçin",
+    "read_more": "Devamını Oku",
+    "all_news": "Tüm Haberler",
+    "categories": "SEKTÖRLERİMİZ",
+    "quick_links": "HIZLI ERİŞİM",
+    "follow_us": "BİZİ TAKİP EDİN",
+    "copyright": "Tüm Hakları Saklıdır.",
+    "design": "Tasarım & Geliştirme",
+    "sub_title": "Yarım Asırlık Endüstriyel Tecrübe",
+    "hero_desc": "Savunma, Otomotiv, İş Makineleri ve Tarım ana üreticilerinin onaylı lider metal şekillendirme ve montaj sanayii.",
+    "partners": "Çalıştığımız Kurumlar & Partnerlerimiz",
+    "our_partners": "GÜVENİLİR PARTNERLERİMİZ",
+    "news_title": "HABERLER & DUYURULAR",
+    "news_desc": "Ar Grup Makine bünyesindeki en yeni teknolojik gelişmeler, yatırımlarımız, iş birliklerimiz ve kurumsal duyurularımız.",
+    "working_hours_label": "Çalışma Saatleri",
+    "working_hours": "Haftaiçi: 09:00 - 18:30",
+    "gallery": "Galeri",
+    "gallery_products": "Galeri / Ürünler",
+    "send": "Formu Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesajınız başarıyla iletildi! En kısa sürede dönüş yapılacaktır.",
+    "address": "Adres",
+    "phone": "Telefon",
+    "fax": "Faks",
+    "email": "E-Posta",
+    "contact_form": "İletişim Formu",
+    "contact_info": "İletişim Bilgileri",
+    "menu": "MENÜ",
+    "read": "Okundu",
+    "like": "Beğen",
+    "corporate_tag": "Kurumsal"
+  },
+  "form": {
+    "name": "Ad Soyad *",
+    "name_placeholder": "Adınız ve soyadınız",
+    "phone": "Telefon",
+    "phone_placeholder": "Telefon numaranız",
+    "email": "E-Posta *",
+    "email_placeholder": "E-posta adresiniz",
+    "message": "Mesaj *",
+    "message_placeholder": "Mesajınız...",
+    "newsletter": "E-BÜLTEN KAYDI",
+    "newsletter_placeholder": "E-Posta adresiniz",
+    "newsletter_btn": "Kayıt Ol",
+    "newsletter_success": "Bültene başarıyla kayıt olundu!",
+    "val_name_min": "Ad soyad en az 3 karakter olmalıdır",
+    "val_email": "Geçersiz e-posta adresi",
+    "val_message_min": "Mesajınız en az 10 karakter olmalıdır"
+  },
+  "home": {
+    "about_desc": "Ar Grup Makine 1975 yılından beri faaliyet göstermekte olup teknolojik gelişmeler ışığında bugün hala müşterilerinin talep ve isteklerini en hızlı ve kaliteli şekilde karşılamaktadır. Tarım Makineleri, İş Makineleri, Savunma ve Otomotiv Ana üreticilerinin onaylı ana yan sanayisi olarak hizmet vermekteyiz.",
+    "about_years": "Sektörel Tecrübe ve Kurumsal Hafıza",
+    "about_quality": "Küresel Kalite Standartları Güvencesi",
+    "uretim_title": "ÜRETİM KABİLİYETLERİ",
+    "uretim_desc": "Sincan Organize Sanayide yer alan 9500 m² kapalı alana sahip fabrikamızda en son teknoloji tezgahlarla metal şekillendirme ve montaj yapmaktayız.",
+    "cnc_title": "CNC Talaşlı İmalat",
+    "cnc_desc": "Yüksek hassasiyetli dik işleme merkezleri ve CNC torna tezgahlarımızla toleransı zor medikal, savunma ve otomotiv parçalarını işliyoruz.",
+    "pres_title": "Pres & Sac Şekillendirme",
+    "pres_desc": "Eksantrik ve hidrolik pres hatlarımızla sac şekillendirme, derin çekme ve aşamalı kalıp presleme operasyonlarını gerçekleştiriyoruz.",
+    "robot_title": "Robotlu Kaynak & Montaj",
+    "robot_desc": "ISO 3834-2 sertifikalı kaynaklı imalat yapımız ve robot kaynak hücrelerimiz ile şasi ve ağır gövde gruplarının montajını sağlıyoruz.",
+    "sektor_title": "HİZMET ALANLARI",
+    "sektor_desc": "Geniş üretim yelpazemiz ile kritik sektörlere yüksek mühendislik içeren komponentler üretiyoruz.",
+    "partner_title": "GÜVENİLİR PARTNERLERİMİZ",
+    "news_title": "HABERLER & DUYURULAR",
+    "news_more": "Tüm Haberler",
+    "machine_label": "MAKİNE",
+    "years_label": "Yıl",
+    "latest_badge": "GÜNCEL",
+    "news_tag": "KURUMSAL DUYURU",
+    "news_excerpt": "Ar Grup Makine endüstriyel çalışmaları, yatırımları ve gelecek hedefleri hakkında bilgiler."
+  },
+  "slug": {
+    "hakkimizda": "Hakkımızda",
+    "kurum-kulturumuz": "Kurum Kültürümüz",
+    "erp-sistemi": "ERP Sistemi",
+    "kalite-kontrol-sistemi": "Kalite Kontrol Sistemi",
+    "kalite-politikamiz": "Kalite Politikamız",
+    "sertifikalar": "Sertifikalar",
+    "basvuru-formu": "Başvuru Formu",
+    "kvkk-metni": "KVKK Metni",
+    "genel-aydinlatma-metni": "Genel Aydınlatma Metni",
+    "abkant-pres": "Abkant Pres",
+    "cnc-bolumu": "CNC Talaşlı İmalat",
+    "eksantrik-pres-bolumu": "Eksantrik Pres Bölümü",
+    "elektrostatik-toz-boya": "Elektrostatik Toz Boya",
+    "giyotin-makas": "Giyotin Makas",
+    "hidrolik-pres-bolumu": "Hidrolik Pres Bölümü",
+    "kalip-bolumu": "Kalıp İmalatı",
+    "kaynak-bolumu": "Kaynaklı İmalat",
+    "kumlama-boya-bolumu": "Kumlama ve Boya Bölümü",
+    "lazer-bolumu": "Lazer Kesim",
+    "matkap": "Matkap Bölümü",
+    "pres": "Pres Bölümü",
+    "robot-kaynak-bolumu": "Robotlu Kaynak Bölümü",
+    "is-makinalari": "İŞ MAKİNALARI",
+    "savunma-sanayi": "SAVUNMA SANAYİ",
+    "otomotiv": "OTOMOTİV",
+    "tarim-makinalari": "TARIM MAKİNALARI",
+    "ozel-uygulamalar": "ÖZEL UYGULAMALAR",
+    "medikal": "MEDİKAL",
+    "argrup-makine-01": "Argrup Makine Haber 1",
+    "argrup-makine-02": "Argrup Makine Haber 2"
+  },
+  "seo": {
+    "home": {
+      "title": "Ar Grup Makine | Metal Şekillendirme & Kalıp Sanayi",
+      "description": "Ar Grup Makine 1975 yılından beri savunma sanayi, otomotiv, iş makineleri ve tarım makineleri sektörlerinde IATF 16949 kalitesiyle onaylı yan sanayi olarak faaliyet göstermektedir."
+    },
+    "arge": {
+      "title": "AR-GE ve İnovasyon | Ar Grup Makine",
+      "description": "İnovatif yönü güçlü, ileri teknolojileri araştıran ve katma değerli ürünlere odaklanan Ar Grup Makine AR-GE faaliyetleri."
+    },
+    "referanslar": {
+      "title": "Referanslarımız & Çözüm Ortakları | Ar Grup Makine",
+      "description": "İş makineleri, savunma, otomotiv ve tarım metal sanayinde birlikte çalıştığımız küresel çözüm ortaklarımız."
+    },
+    "iletisim": {
+      "title": "İletişim & Konum Bilgileri | Ar Grup Makine",
+      "description": "Ar Grup Makine Ankara Sincan OSB adres, harita, telefon ve iletişim bilgileri."
+    },
+    "haberler": {
+      "title": "Haberler & Duyurular | Ar Grup Makine",
+      "description": "Ar Grup Makine kurumsal haberler, teknolojik yatırımlar ve güncel duyurular."
+    },
+    "sectors": {
+      "suffix": "sektörü için IATF 16949 kalitesiyle hassas sac şekillendirme ve kalıp üretim çözümlerimiz."
+    },
+    "production": {
+      "suffix": "parkurumuz ve yüksek üretim kapasitemizle yarım asırlık metal sanayi tecrübemiz."
+    },
+    "corporate": {
+      "suffix": "- Ar Grup Makine kurumsal bilgileri, kalite politikamız ve sürdürülebilirlik ilkelerimiz."
+    }
+  },
+  "news": {
+    "fallback_content": "<p>Bu haber için detaylı içerik bulunmamaktadır.</p>"
+  },
+  "sector_desc": {
+    "is-makinalari": "İş makineleri yedek parçaları, şasi ve aktarma grupları hassas sac imalatı.",
+    "savunma-sanayi": "AS9100 standardında hafif ve ağır zırhlı araç güvenlik parçaları üretimi.",
+    "otomotiv": "IATF 16949 onaylı yan sanayi olarak küresel otomotiv markalarına üretim.",
+    "ozel-uygulamalar": "Müşteri taleplerine özel fikstür, kalıp ve endüstriyel parça tasarımları.",
+    "tarim-makinalari": "Traktör şaseleri ve tarımsal ekipman metal aksamları imalatı.",
+    "medikal": "Sağlık sektörü standartlarına uygun paslanmaz ve hassas metal bileşenler."
+  }
+}

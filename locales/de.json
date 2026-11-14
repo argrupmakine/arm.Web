@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "kurumsal": "UNTERNEHMEN",
+    "uretim": "PRODUKTIONSLINIEN",
+    "sektorler": "BRANCHEN",
+    "arge": "F&E",
+    "referanslar": "REFERENZEN",
+    "haberler": "NEWS",
+    "iletisim": "KONTAKT"
+  },
+  "ui": {
+    "detail": "Detail",
+    "more_detail": "Mehr Details",
+    "contact_us": "Kontaktieren Sie uns",
+    "read_more": "Weiterlesen",
+    "all_news": "Alle News",
+    "categories": "UNSERE BRANCHEN",
+    "quick_links": "SCHNELLZUGRIFF",
+    "follow_us": "FOLGEN SIE UNS",
+    "copyright": "Alle Rechte vorbehalten.",
+    "design": "Design & Entwicklung",
+    "sub_title": "Ein halbes Jahrhundert Industrieerfahrung",
+    "hero_desc": "Zugelassener führender Metallumformungs- und Montagebetrieb für die Bereiche Verteidigung, Automobil, Baumaschinen und Landmaschinen.",
+    "partners": "Institutionen & Partner, mit denen wir zusammenarbeiten",
+    "our_partners": "UNSERE VERTRAUTEN PARTNER",
+    "news_title": "NEWS & ANKÜNDIGUNGEN",
+    "news_desc": "Die neuesten technologischen Entwicklungen, Investitionen, Kooperationen und Unternehmensmitteilungen von Ar Grup Makine.",
+    "working_hours_label": "Arbeitszeiten",
+    "working_hours": "Werktags: 09:00 - 18:30",
+    "gallery": "Galerie",
+    "gallery_products": "Galerie / Produkte",
+    "send": "Formular absenden",
+    "sending": "Wird gesendet...",
+    "success": "Ihre Nachricht wurde erfolgreich gesendet! Wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "fax": "Fax",
+    "email": "E-Mail",
+    "contact_form": "Kontaktformular",
+    "contact_info": "Kontaktinformationen",
+    "menu": "MENÜ",
+    "read": "Gelesen",
+    "like": "Gefällt mir",
+    "corporate_tag": "Unternehmen"
+  },
+  "form": {
+    "name": "Name Nachname *",
+    "name_placeholder": "Ihr Vor- und Nachname",
+    "phone": "Telefon",
+    "phone_placeholder": "Ihre Telefonnummer",
+    "email": "E-Mail *",
+    "email_placeholder": "Ihre E-Mail-Adresse",
+    "message": "Nachricht *",
+    "message_placeholder": "Ihre Nachricht...",
+    "newsletter": "NEWSLETTER-ANMELDUNG",
+    "newsletter_placeholder": "Ihre E-Mail-Adresse",
+    "newsletter_btn": "Abonnieren",
+    "newsletter_success": "Erfolgreich für den Newsletter angemeldet!",
+    "val_name_min": "Name muss mindestens 3 Zeichen lang sein",
+    "val_email": "Ungültige E-Mail-Adresse",
+    "val_message_min": "Nachricht muss mindestens 10 Zeichen lang sein"
+  },
+  "home": {
+    "about_desc": "Ar Grup Makine ist seit 1975 tätig und erfüllt im Lichte der technologischen Entwicklungen nach wie vor die Anforderungen und Wünsche seiner Kunden auf schnellste und qualitativ hochwertigste Weise. Wir fungieren als zugelassener Hauptzulieferer für Landmaschinen, Baumaschinen, Verteidigung und Automobil-Erstausrüster.",
+    "about_years": "Branchenerfahrung & Unternehmensgedächtnis",
+    "about_quality": "Globale Qualitätsstandardsicherung",
+    "uretim_title": "PRODUKTIONSKAPAZITÄTEN",
+    "uretim_desc": "In unserem Werk mit 9500 m² geschlossener Fläche in der organisierten Industriezone Sincan führen wir die Metallumformung und Montage mit modernsten Maschinen durch.",
+    "cnc_title": "CNC-Bearbeitung",
+    "cnc_desc": "Mit unseren hochpräzisen vertikalen Bearbeitungszentren und CNC-Drehmaschinen bearbeiten wir anspruchsvolle Medizin-, Verteidigungs- und Automobilteile mit engen Toleranzen.",
+    "pres_title": "Presse & Blechumformung",
+    "pres_desc": "Wir führen Blechumformungen, Tiefziehen und Folgeverbundpressen mit unseren Exzenter- und Hydraulikpressenlinien durch.",
+    "robot_title": "Robotergestütztes Schweißen & Montage",
+    "robot_desc": "Wir montieren Fahrwerk- und schwere Karosseriengruppen mit unserem ISO 3834-2 zertifizierten Schweißfertigungssystem und unseren Roboterschweißzellen.",
+    "sektor_title": "SERVICEBEREICHE",
+    "sektor_desc": "Mit unserem breiten Produktionsspektrum produzieren wir hochentwickelte Komponenten für kritische Sektoren.",
+    "partner_title": "UNSERE VERTRAUTEN PARTNER",
+    "news_title": "NEWS & ANKÜNDIGUNGEN",
+    "news_more": "Alle News",
+    "machine_label": "MASCHINEN",
+    "years_label": "Jahre",
+    "latest_badge": "AKTUELL",
+    "news_tag": "UNTERNEHMENSMITTEILUNG",
+    "news_excerpt": "Informationen über die industriellen Arbeiten, Investitionen und zukünftigen Ziele von Ar Grup Makine."
+  },
+  "slug": {
+    "hakkimizda": "Über Uns",
+    "kurum-kulturumuz": "Unsere Kultur",
+    "erp-sistemi": "ERP-System",
+    "kalite-kontrol-sistemi": "Qualitätskontrollsystem",
+    "kalite-politikamiz": "Qualitätspolitik",
+    "sertifikalar": "Zertifikate",
+    "basvuru-formu": "Bewerbungsformular",
+    "kvkk-metni": "Datenschutzerklärung",
+    "genel-aydinlatma-metni": "Allgemeiner Offenlegungstext",
+    "abkant-pres": "Abkantpresse",
+    "cnc-bolumu": "CNC-Bearbeitung",
+    "eksantrik-pres-bolumu": "Exzenterpresse",
+    "elektrostatik-toz-boya": "Elektrostatische Pulverbeschichtung",
+    "giyotin-makas": "Tafelschere",
+    "hidrolik-pres-bolumu": "Hydraulikpresse",
+    "kalip-bolumu": "Formenbau",
+    "kaynak-bolumu": "Schweißfertigung",
+    "kumlama-boya-bolumu": "Sandstrahlen & Lackieren",
+    "lazer-bolumu": "Laserschneiden",
+    "matkap": "Bohrabteilung",
+    "pres": "Presseabteilung",
+    "robot-kaynak-bolumu": "Roboterschweißen",
+    "is-makinalari": "BAUMASCHINEN",
+    "savunma-sanayi": "VERTEIDIGUNGSINDUSTRIE",
+    "otomotiv": "AUTOMOBIL",
+    "tarim-makinalari": "LANDMASCHINEN",
+    "ozel-uygulamalar": "SPEZIALANWENDUNGEN",
+    "medikal": "MEDIZINTECHNIK",
+    "argrup-makine-01": "Argrup Makine News 1",
+    "argrup-makine-02": "Argrup Makine News 2"
+  },
+  "seo": {
+    "home": {
+      "title": "Ar Grup Makine | Metallumformung & Werkzeugbau",
+      "description": "Ar Grup Makine ist seit 1975 als zugelassener Zulieferer mit IATF 16949-Qualität in den Bereichen Verteidigung, Automobil, Baumaschinen und Landmaschinen tätig."
+    },
+    "arge": {
+      "title": "F&E und Innovation | Ar Grup Makine",
+      "description": "F&E-Aktivitäten von Ar Grup Makine mit starker Innovationskraft, Erforschung fortschrittlicher Technologien und Fokus auf wertschöpfende Produkte."
+    },
+    "referanslar": {
+      "title": "Referenzen & Partner | Ar Grup Makine",
+      "description": "Globale Geschäftspartner und Referenzen, mit denen wir in den Bereichen Baumaschinen, Verteidigung, Automobil und Agrarmetallindustrie zusammenarbeiten."
+    },
+    "iletisim": {
+      "title": "Kontakt & Standort | Ar Grup Makine",
+      "description": "Ar Grup Makine Ankara Sincan OSB Adresse, Kartenstandort, Telefon und Kontaktdaten."
+    },
+    "haberler": {
+      "title": "News & Ankündigungen | Ar Grup Makine",
+      "description": "Ar Grup Makine Unternehmensnachrichten, technologische Investitionen und aktuelle Ankündigungen."
+    },
+    "sectors": {
+      "suffix": "Präzisionsblechumformung und Werkzeugherstellung für die Branche mit IATF 16949-Qualität."
+    },
+    "production": {
+      "suffix": "Maschinenpark und hohe Produktionskapazität kombiniert mit einem halben Jahrhundert Erfahrung in der Metallindustrie."
+    },
+    "corporate": {
+      "suffix": "- Ar Grup Makine Unternehmensinformationen, Qualitätspolitik und Nachhaltigkeitsprinzipien."
+    }
+  },
+  "news": {
+    "fallback_content": "<p>Für diesen Beitrag sind keine detaillierten Inhalte verfügbar.</p>"
+  },
+  "sector_desc": {
+    "is-makinalari": "Blechbearbeitung für Baumaschinen-Ersatzteile, Fahrgestelle und Getriebegruppen.",
+    "savunma-sanayi": "Herstellung von Sicherheitskomponenten für leichte und schwere gepanzerte Fahrzeuge nach AS9100-Standard.",
+    "otomotiv": "Produktion für globale Automobilmarken als IATF 16949 zugelassener Zulieferer.",
+    "ozel-uygulamalar": "Kundenspezifische Vorrichtungs-, Formen- und Industriekomponenten-Designs nach Kundenwunsch.",
+    "tarim-makinalari": "Herstellung von Traktorfahrgestellen und Metallteilen für landwirtschaftliche Geräte.",
+    "medikal": "Edelstahl- und Präzisionsmetallkomponenten nach Standards des Gesundheitssektors."
+  }
+}

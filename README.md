@@ -1,40 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ar Grup Makine - Web Platformu
 
-## Getting Started
+Bu depo, **Ar Grup Makine Sanayi ve Ticaret A.Ş.**'nin modern, çok dilli ve yüksek performanslı kurumsal web platformunun kaynak kodlarını içerir.
 
-First, run the development server:
+- **Framework:** Next.js 16.2 (App Router & Turbopack)
+- **UI & Kütüphaneler:** React 19, Tailwind CSS v4, Lucide React, Framer Motion, React Hook Form, Zod
+- **Diller:** Türkçe (tr), İngilizce (en), Almanca (de), Fransızca (fr)
+- **Konteyner & DevOps:** Docker (Node 22 LTS Alpine), Docker Compose, Nginx, Vercel
 
+---
+
+## 📚 Dokümantasyon Dosyaları
+
+- 📄 **[PROJE_DOKUMANTASYONU.md](PROJE_DOKUMANTASYONU.md)**: Mimari yapı, yapılan teknik geliştirmeler, rota çevirileri, bot koruması, SEO/AEO ve DevOps dağıtım rehberi.
+- 📊 **[YONETIM_SUNUMU.md](YONETIM_SUNUMU.md)**: Şirket yönetimi için hazırlanan; dijital dönüşümün ticari avantajlarını, prestij kazanımlarını ve Önce/Sonra analizini içeren sunum metni.
+
+---
+
+## 🚀 Hızlı Başlangıç (Geliştirici)
+
+### Gereksinimler
+- Node.js 20+ veya 22 LTS
+- npm 10+
+
+### Yerel Geliştirme Sunucusu
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-docker build -t ar-grup-makine .  
-docker run -d -p 3009:3000 ar-grup-makine  
+# Bağımlılıkları yükleyin
+npm install
 
+# Geliştirme sunucusunu başlatın
+npm run dev
+```
+Tarayıcınızdan `http://localhost:3000` adresini açarak siteyi görüntüleyebilirsiniz.
+
+### Kod Kalitesi ve Derleme
+```bash
+# ESLint kontrolü (0 hata hedefi)
+npm run lint
+
+# Üretim derlemesi (144 statik sayfa üretir)
+npm run build
+
+# Üretim sunucusunu yerel çalıştırma
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🐳 Docker ile Çalıştırma
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Konteyneri derleyin ve arka planda çalıştırın
+docker compose up -d --build
 
-## Learn More
+# Durumu kontrol edin
+docker ps
+```
+Uygulama `http://localhost:3000` portunda yayına başlar.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# arm.Web
+## 🌐 Üretim Dağıtımı (Production)
+- **VPS / Docker:** `docker-compose.yml` ve `nginx.conf.example` dosyalarını kullanın.
+- **Vercel:** Repoyu Vercel'e bağlayıp doğrudan deploy edin (Next.js preset otomatik algılanır).

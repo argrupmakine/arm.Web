@@ -1,0 +1,38 @@
+
+* { -webkit-box-sizing: border-box;	-moz-box-sizing: border-box;  box-sizing: border-box; -ms-box-sizing: border-box;}
+		
+/* Left Navigation
+-----------------------------------------------*/
+.mainNav{ background: transparent; width: 100%; margin-bottom: 30px;}
+
+/* First Level */
+.mainNav ul{ margin: 0; padding: 0; list-style: none; }
+.mainNav ul li{ position: relative;}
+.mainNav ul li:last-child{ border-bottom: 0;}
+.mainNav ul li::before{ content: ""; position: absolute; width: 8px; height: 16px; left: 0; top: 9px; /*background-image: url("../../../images/arrow-right.png"); background-repeat: no-repeat; background-position: center; background-size: 8px 16px;*/}
+.mainNav ul li a{ transition: 0.2s; color: #333; display: block; line-height: normal; font-size: 16px; font-weight: 500; text-decoration: none; padding: 7px 0;}
+.mainNav ul li a:hover{ background: transparent; text-decoration: none; color: #fd5c5c; }
+.mainNav ul li a.active{ color: #fd5c5c; font-weight: 700; }
+
+.mainNav ul li .right{ display: inline-block; width: 10px; height: 10px; background-image: url(../../../images/right.html); background-repeat: no-repeat; background-position: center; background-size: 10px 10px;}
+.mainNav ul li .down{ display: inline-block; width: 10px; height: 10px; background-image: url(../../../images/down.html); background-repeat: no-repeat; background-position: center; background-size: 10px 10px;}
+
+/* Second Level */
+.mainNav ul ul{ border-bottom: none }
+.mainNav ul ul li{  background: transparent; }
+.mainNav ul ul li a{ display: block; line-height: normal; padding-left: 15px; font-size: 13px; font-weight: 400; color: #999 !important; }
+.mainNav ul ul li a:hover{ background: transparent; color: #fd5c5c !important; }
+
+/* Third Level */
+.mainNav ul ul ul { }
+.mainNav ul ul ul li{ border: none; }
+.mainNav ul ul ul li a{ }
+
+/* Accordion Button */
+ul li.has-subnav .accordion-btn{ color: #111; background: rgba(255,255,255, 0.15); padding-top: 1px; font-size: 17px; }
+.has-subnav ul li a{ color: #111 !important;}
+
+@media(max-width: 991px)
+{
+    .mainNav ul li{ border-bottom: 1px #eee solid;}
+}

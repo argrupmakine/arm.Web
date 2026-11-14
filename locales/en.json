@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Home",
+    "kurumsal": "CORPORATE",
+    "uretim": "PRODUCTION LINES",
+    "sektorler": "SECTORS",
+    "arge": "R&D",
+    "referanslar": "REFERENCES",
+    "haberler": "NEWS",
+    "iletisim": "CONTACT"
+  },
+  "ui": {
+    "detail": "Detail",
+    "more_detail": "More Details",
+    "contact_us": "Contact Us",
+    "read_more": "Read More",
+    "all_news": "All News",
+    "categories": "OUR SECTORS",
+    "quick_links": "QUICK LINKS",
+    "follow_us": "FOLLOW US",
+    "copyright": "All Rights Reserved.",
+    "design": "Design & Development",
+    "sub_title": "Half a Century of Industrial Experience",
+    "hero_desc": "Approved leading metal forming and assembly industry for major Defense, Automotive, Construction and Agricultural machinery manufacturers.",
+    "partners": "Institutions & Partners We Work With",
+    "our_partners": "OUR TRUSTED PARTNERS",
+    "news_title": "NEWS & ANNOUNCEMENTS",
+    "news_desc": "The latest technological developments, investments, collaborations and corporate announcements within Ar Grup Makine.",
+    "working_hours_label": "Working Hours",
+    "working_hours": "Weekdays: 09:00 - 18:30",
+    "gallery": "Gallery",
+    "gallery_products": "Gallery / Products",
+    "send": "Send Form",
+    "sending": "Sending...",
+    "success": "Your message has been successfully sent! We will get back to you as soon as possible.",
+    "address": "Address",
+    "phone": "Phone",
+    "fax": "Fax",
+    "email": "E-Mail",
+    "contact_form": "Contact Form",
+    "contact_info": "Contact Information",
+    "menu": "MENU",
+    "read": "Read",
+    "like": "Like",
+    "corporate_tag": "Corporate"
+  },
+  "form": {
+    "name": "Full Name *",
+    "name_placeholder": "Your name and surname",
+    "phone": "Phone",
+    "phone_placeholder": "Your phone number",
+    "email": "E-Mail *",
+    "email_placeholder": "Your email address",
+    "message": "Message *",
+    "message_placeholder": "Your message...",
+    "newsletter": "NEWSLETTER SIGNUP",
+    "newsletter_placeholder": "Your email address",
+    "newsletter_btn": "Subscribe",
+    "newsletter_success": "Successfully subscribed to the newsletter!",
+    "val_name_min": "Full name must be at least 3 characters",
+    "val_email": "Invalid email address",
+    "val_message_min": "Message must be at least 10 characters"
+  },
+  "home": {
+    "about_desc": "Ar Grup Makine has been operating since 1975 and still meets the demands and expectations of its customers in the fastest and highest quality manner in the light of technological developments. We serve as the approved main sub-industry for Agricultural Machinery, Construction Machinery, Defense and Automotive primary manufacturers.",
+    "about_years": "Sector Experience & Corporate Memory",
+    "about_quality": "Global Quality Standards Assurance",
+    "uretim_title": "PRODUCTION CAPABILITIES",
+    "uretim_desc": "We carry out sheet metal forming and assembly with state-of-the-art machines in our factory with 9500 m² closed area in Sincan Organized Industrial Zone.",
+    "cnc_title": "CNC Machining",
+    "cnc_desc": "We machine medical, defense, and automotive parts with tight tolerances using our high-precision vertical machining centers and CNC lathes.",
+    "pres_title": "Press & Sheet Metal Forming",
+    "pres_desc": "We perform sheet metal forming, deep drawing, and progressive die stamping with our eccentric and hydraulic press lines.",
+    "robot_title": "Robotic Welding & Assembly",
+    "robot_desc": "We assemble chassis and heavy body groups with our ISO 3834-2 certified welded manufacturing system and robotic welding cells.",
+    "sektor_title": "SERVICE AREAS",
+    "sektor_desc": "We produce high-engineering components for critical sectors with our wide production range.",
+    "partner_title": "OUR TRUSTED PARTNERS",
+    "news_title": "NEWS & ANNOUNCEMENTS",
+    "news_more": "All News",
+    "machine_label": "MACHINE",
+    "years_label": "Years",
+    "latest_badge": "LATEST",
+    "news_tag": "CORPORATE ANNOUNCEMENT",
+    "news_excerpt": "Information about Ar Grup Makine industrial works, investments and future goals."
+  },
+  "slug": {
+    "hakkimizda": "About Us",
+    "kurum-kulturumuz": "Our Culture",
+    "erp-sistemi": "ERP System",
+    "kalite-kontrol-sistemi": "Quality Control System",
+    "kalite-politikamiz": "Quality Policy",
+    "sertifikalar": "Certificates",
+    "basvuru-formu": "Application Form",
+    "kvkk-metni": "KVKK Policy",
+    "genel-aydinlatma-metni": "General Disclosure Text",
+    "abkant-pres": "Press Brake",
+    "cnc-bolumu": "CNC Machining",
+    "eksantrik-pres-bolumu": "Eccentric Press",
+    "elektrostatik-toz-boya": "Electrostatic Powder Coating",
+    "giyotin-makas": "Guillotine Shear",
+    "hidrolik-pres-bolumu": "Hydraulic Press",
+    "kalip-bolumu": "Mold Production",
+    "kaynak-bolumu": "Welded Production",
+    "kumlama-boya-bolumu": "Sandblasting & Painting",
+    "lazer-bolumu": "Laser Cutting",
+    "matkap": "Drilling Section",
+    "pres": "Press Section",
+    "robot-kaynak-bolumu": "Robotic Welding",
+    "is-makinalari": "CONSTRUCTION MACHINERY",
+    "savunma-sanayi": "DEFENSE INDUSTRY",
+    "otomotiv": "AUTOMOTIVE",
+    "tarim-makinalari": "AGRICULTURAL MACHINERY",
+    "ozel-uygulamalar": "SPECIAL APPLICATIONS",
+    "medikal": "MEDICAL",
+    "argrup-makine-01": "Argrup Makine News 1",
+    "argrup-makine-02": "Argrup Makine News 2"
+  },
+  "seo": {
+    "home": {
+      "title": "Ar Grup Makine | Metal Forming & Tooling Industry",
+      "description": "Ar Grup Makine has been operating as an approved sub-industry supplier with IATF 16949 quality in the defense, automotive, construction machinery, and agricultural machinery sectors since 1975."
+    },
+    "arge": {
+      "title": "R&D and Innovation | Ar Grup Makine",
+      "description": "Ar Grup Makine R&D activities with a strong innovative aspect, researching advanced technologies and focusing on value-added products."
+    },
+    "referanslar": {
+      "title": "Our References & Partners | Ar Grup Makine",
+      "description": "Global business partners and references we collaborate with in the construction machinery, defense, automotive, and agricultural metal industries."
+    },
+    "iletisim": {
+      "title": "Contact & Location Info | Ar Grup Makine",
+      "description": "Ar Grup Makine Ankara Sincan OSB address, map location, phone, and contact details."
+    },
+    "haberler": {
+      "title": "News & Announcements | Ar Grup Makine",
+      "description": "Ar Grup Makine corporate news, technological investments, and current announcements."
+    },
+    "sectors": {
+      "suffix": "precision sheet metal forming and tooling manufacturing solutions with IATF 16949 quality."
+    },
+    "production": {
+      "suffix": "machinery park and high production capacity combined with half a century of metal industry experience."
+    },
+    "corporate": {
+      "suffix": "- Ar Grup Makine corporate information, quality policy and sustainability principles."
+    }
+  },
+  "news": {
+    "fallback_content": "<p>Detailed content is not available for this news post.</p>"
+  },
+  "sector_desc": {
+    "is-makinalari": "Sheet metal fabrication for construction machinery spare parts, chassis and transmission groups.",
+    "savunma-sanayi": "Production of safety components for light and heavy armored vehicles under AS9100 standard.",
+    "otomotiv": "Production for global automotive brands as an IATF 16949 approved sub-industry.",
+    "ozel-uygulamalar": "Custom fixture, mold and industrial component designs based on customer demands.",
+    "tarim-makinalari": "Manufacturing of tractor chassis and metal parts for agricultural equipment.",
+    "medikal": "Stainless and precision metal components complying with health sector standards."
+  }
+}

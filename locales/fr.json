@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "kurumsal": "ENTREPRISE",
+    "uretim": "LIGNES DE PRODUCTION",
+    "sektorler": "SECTEURS",
+    "arge": "R&D",
+    "referanslar": "RÉFÉRENCES",
+    "haberler": "ACTUALITÉS",
+    "iletisim": "CONTACT"
+  },
+  "ui": {
+    "detail": "Détail",
+    "more_detail": "Plus de détails",
+    "contact_us": "Contactez-nous",
+    "read_more": "Lire la suite",
+    "all_news": "Toutes les actualités",
+    "categories": "NOS SECTEURS",
+    "quick_links": "ACCÈS RAPIDE",
+    "follow_us": "SUIVEZ-NOUS",
+    "copyright": "Tous droits réservés.",
+    "design": "Design & Développement",
+    "sub_title": "Un demi-siècle d'expérience industrielle",
+    "hero_desc": "Sous-traitant leader agréé en formage et assemblage de métaux pour les principaux constructeurs de la Défense, de l'Automobile, du BTP et des machines agricoles.",
+    "partners": "Institutions & Partenaires avec lesquels nous collaborons",
+    "our_partners": "NOS PARTENAIRES DE CONFIANCE",
+    "news_title": "ACTUALITÉS & ANNONCES",
+    "news_desc": "Les derniers développements technologiques, investissements, collaborations et annonces corporatives au sein d'Ar Grup Makine.",
+    "working_hours_label": "Heures de travail",
+    "working_hours": "Jours ouvrables: 09:00 - 18:30",
+    "gallery": "Gallery",
+    "gallery_products": "Gallery / Produits",
+    "send": "Envoyer le formulaire",
+    "sending": "Envoi en cours...",
+    "success": "Votre message a été envoyé avec succès! Nous vous répondrons dans les plus brefs délais.",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "fax": "Fax",
+    "email": "E-Mail",
+    "contact_form": "Formulaire de contact",
+    "contact_info": "Informations de contact",
+    "menu": "MENU",
+    "read": "Lu",
+    "like": "J'aime",
+    "corporate_tag": "Entreprise"
+  },
+  "form": {
+    "name": "Nom complet *",
+    "name_placeholder": "Votre nom et prénom",
+    "phone": "Téléphone",
+    "phone_placeholder": "Votre numéro de téléphone",
+    "email": "E-Mail *",
+    "email_placeholder": "Votre adresse e-mail",
+    "message": "Message *",
+    "message_placeholder": "Votre message...",
+    "newsletter": "INSCRIPTION À LA NEWSLETTER",
+    "newsletter_placeholder": "Votre adresse e-mail",
+    "newsletter_btn": "S'abonner",
+    "newsletter_success": "Inscription à la newsletter réussie!",
+    "val_name_min": "Le nom complet doit comporter au moins 3 caractères",
+    "val_email": "Adresse e-mail invalide",
+    "val_message_min": "Le message doit comporter au moins 10 caractères"
+  },
+  "home": {
+    "about_desc": "Ar Grup Makine est en activité depuis 1975 et répond toujours aux demandes et attentes de ses clients de la manière la plus rapide et la plus qualitative à la lumière des développements technologiques. Nous servons de sous-traitant principal agréé pour les constructeurs de machines agricoles, de BTP, de Défense et de l'Automobile.",
+    "about_years": "Expérience sectorielle & Mémoire corporative",
+    "about_quality": "Assurance des normes de qualité mondiales",
+    "uretim_title": "CAPACITÉS DE PRODUCTION",
+    "uretim_desc": "We carry out sheet metal forming and assembly with state-of-the-art machines in our factory with 9500 m² closed area in Sincan Organized Industrial Zone.",
+    "cnc_title": "Usinage CNC",
+    "cnc_desc": "Nous usinons des pièces complexes pour le secteur médical, de la défense et de l'automobile avec des tolérances serrées grâce à nos centres d'usinage verticaux de haute précision et nos tours CNC.",
+    "pres_title": "Presse & Formage de tôle",
+    "pres_desc": "Nous réalisons des opérations de formage de tôle, d'emboutissage profond et d'estampage sur presse progressive avec nos lignes de presses excentriques et hydrauliques.",
+    "robot_title": "Soudage robotisé & Assemblage",
+    "robot_desc": "Nous assemblons des châssis et des groupes de carrosserie lourde grâce à notre système de fabrication soudée certifié ISO 3834-2 et nos cellules de soudage robotisées.",
+    "sektor_title": "DOMAINES DE SERVICE",
+    "sektor_desc": "Nous produisons des composants de haute ingénierie pour les secteurs critiques grâce à notre large gamme de production.",
+    "partner_title": "NOS PARTENAIRES DE CONFIANCE",
+    "news_title": "ACTUALITÉS & ANNONCES",
+    "news_more": "Toutes les actualités",
+    "machine_label": "MACHINES",
+    "years_label": "Ans",
+    "latest_badge": "ACTUALITÉS",
+    "news_tag": "ANNONCE D'ENTREPRISE",
+    "news_excerpt": "Informations sur les travaux industriels, les investissements et les objectifs futurs d'Ar Grup Makine."
+  },
+  "slug": {
+    "hakkimizda": "À Propos",
+    "kurum-kulturumuz": "Notre Culture",
+    "erp-sistemi": "Système ERP",
+    "kalite-kontrol-sistemi": "Système de contrôle qualité",
+    "kalite-politikamiz": "Politique Qualité",
+    "sertifikalar": "Certificats",
+    "basvuru-formu": "Formulaire de candidature",
+    "kvkk-metni": "Politique de confidentialité",
+    "genel-aydinlatma-metni": "Texte de divulgation générale",
+    "abkant-pres": "Presse plieuse",
+    "cnc-bolumu": "Usinage CNC",
+    "eksantrik-pres-bolumu": "Presse excentrique",
+    "elektrostatik-toz-boya": "Peinture en poudre électrostatique",
+    "giyotin-makas": "Cisaille guillotine",
+    "hidrolik-pres-bolumu": "Presse hydraulique",
+    "kalip-bolumu": "Production de moules",
+    "kaynak-bolumu": "Production soudée",
+    "kumlama-boya-bolumu": "Sablage & Peinture",
+    "lazer-bolumu": "Découpe laser",
+    "matkap": "Section perçage",
+    "pres": "Section presse",
+    "robot-kaynak-bolumu": "Soudage robotisé",
+    "is-makinalari": "MACHINES DE CHANTIER",
+    "savunma-sanayi": "INDUSTRIE DE LA DÉFENSE",
+    "otomotiv": "AUTOMOBILE",
+    "tarim-makinalari": "MACHINES AGRICOLES",
+    "ozel-uygulamalar": "APPLICATIONS SPÉCIALES",
+    "medikal": "MÉDICAL",
+    "argrup-makine-01": "Argrup Makine News 1",
+    "argrup-makine-02": "Argrup Makine News 2"
+  },
+  "seo": {
+    "home": {
+      "title": "Ar Grup Makine | Formage des Métaux & Outillage",
+      "description": "Ar Grup Makine opère en tant que fournisseur sous-traitant agréé avec la qualité IATF 16949 dans les secteurs de la défense, de l'automobile, des machines de construction et des machines agricoles depuis 1975."
+    },
+    "arge": {
+      "title": "R&D et Innovation | Ar Grup Makine",
+      "description": "Activités de R&D d'Ar Grup Makine avec un fort aspect innovant, recherchant des technologies avancées et se concentrant sur des produits à valeur ajoutée."
+    },
+    "referanslar": {
+      "title": "Nos Références & Partenaires | Ar Grup Makine",
+      "description": "Partenaires commerciaux mondiaux et références avec lesquels nous collaborons dans les industries des machines de construction, de la défense, de l'automobile et du métal agricole."
+    },
+    "iletisim": {
+      "title": "Contact & Localisation | Ar Grup Makine",
+      "description": "Ar Grup Makine Ankara Sincan OSB adresse, carte, téléphone et coordonnées de contact."
+    },
+    "haberler": {
+      "title": "Actualités & Annonces | Ar Grup Makine",
+      "description": "Actualités de l'entreprise Ar Grup Makine, investissements technologiques et annonces actuelles."
+    },
+    "sectors": {
+      "suffix": "solutions de formage de tôles de précision et de fabrication d'outillage pour le secteur avec la qualité IATF 16949."
+    },
+    "production": {
+      "suffix": "parc de machines et capacité de production élevée combinés à un demi-siècle d'expérience dans l'industrie métallurgique."
+    },
+    "corporate": {
+      "suffix": "- Informations d'entreprise Ar Grup Makine, politique qualité et principes de durabilité."
+    }
+  },
+  "news": {
+    "fallback_content": "<p>Le contenu détaillé n'est pas disponible pour cet article.</p>"
+  },
+  "sector_desc": {
+    "is-makinalari": "Fabrication de tôle pour pièces de rechange de machines de chantier, châssis et groupes de transmission.",
+    "savunma-sanayi": "Production de composants de sécurité pour véhicules blindés légers et lourds sous la norme AS9100.",
+    "otomotiv": "Production pour les marques automobiles mondiales en tant que sous-traitant agréé IATF 16949.",
+    "ozel-uygulamalar": "Conception de gabarits, moules et composants industriels personnalisés selon les demandes des clients.",
+    "tarim-makinalari": "Fabrication de châssis de tracteurs et de pièces métalliques pour équipements agricoles.",
+    "medikal": "Composants en acier inoxydable et métaux de précision conformes aux normes du secteur de la santé."
+  }
+}
