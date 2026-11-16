@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/next';
 import type { Metadata, Viewport } from "next";
 import { Open_Sans } from "next/font/google";
 import Header from "@/components/layout/Header";
@@ -136,7 +137,10 @@ export default async function LocaleLayout({
         <LanguageProvider defaultLocale={locale}>
           <Header />
           <main className="flex-grow pt-24">{children}</main>
+        
           <Footer />
+          <Analytics />
+
         </LanguageProvider>
       </body>
     </html>
