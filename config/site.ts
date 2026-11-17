@@ -19,6 +19,9 @@ export const siteConfig = {
     instagram: 'https://www.instagram.com/',
     facebook: 'https://www.facebook.com/',
   },
+  analytics: {
+    gaId: process.env.NEXT_PUBLIC_GA_ID || '',
+  },
 };
 
 export const homeSectors: SectorItem[] = [
@@ -35,7 +38,7 @@ export const homeSectors: SectorItem[] = [
   {
     slug: 'otomotiv',
     href: '/sektorler/otomotiv',
-    img: '/Webkontrol/IcerikYonetimi/GaleriResim/BuyukResim/cats3_icerik_g55_1326x494_aEXMFjLh.png',
+    img: '/Webkontrol/IcerikYonetimi/GaleriResim/BuyukResim/cats3_icerik_g153_1326x494_aEXMFjLh.png',
   },
   {
     slug: 'ozel-uygulamalar',

@@ -7,6 +7,7 @@ import Footer from "@/components/layout/Footer";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { getTranslation } from "@/lib/server-translate";
 import JsonLd from "@/components/seo/JsonLd";
+import GoogleAnalytics from "@/components/seo/GoogleAnalytics";
 
 export const viewport: Viewport = {
   themeColor: "#ffffff",
@@ -140,6 +141,7 @@ export default async function LocaleLayout({
         
           <Footer />
           <Analytics />
+          <GoogleAnalytics />
 
         </LanguageProvider>
       </body>

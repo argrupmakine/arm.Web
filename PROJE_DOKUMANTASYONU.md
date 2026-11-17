@@ -110,6 +110,11 @@ Bu proje, **Ar Grup Makine Sanayi ve Ticaret A.Ş.**'nin eski statik HTML tabanl
   2. `proxy.ts`: İlk istek anında host kontrolü ve 301 yönlendirmesi.
   3. `nginx.conf.example`: VPS web sunucusu düzeyinde anında 301 yönlendirmesi.
 
+### 3.8. Google Analytics (GA4) Entegrasyonu
+- [GoogleAnalytics.tsx](file:///Users/serdar/WebstormProjects/argrupmakine.com.tr/components/seo/GoogleAnalytics.tsx) bileşeni geliştirildi.
+- Next.js App Router yapısında sayfalar arası SPA (`Link`) geçişlerini `usePathname` ile otomatik izleyen akıllı yapı kuruldu.
+- Ölçüm kimliği (`G-XXXXXXXXXX`) `.env.local`, `config/site.ts` veya Vercel/Docker ortam değişkeni (`NEXT_PUBLIC_GA_ID`) üzerinden yönetilebilir. Kimlik tanımlanmadığında scriptler yüklenmeyerek temiz çalışma sağlanır.
+
 ---
 
 ## 4. Canlıya Alma (Deployment) Rehberi
