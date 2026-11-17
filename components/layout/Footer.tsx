@@ -5,30 +5,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import ProtectedContact from '@/components/ui/ProtectedContact';
-import { useForm } from 'react-hook-form';
-import { z } from 'zod';
-import { zodResolver } from '@hookform/resolvers/zod';
 import { useLanguage } from '@/context/LanguageContext';
 import { siteConfig, homeSectors } from '@/config/site';
 import { getLocalizedPath, categoryRoutes } from '@/config/routes';
 
-const emailSchema = z.object({
-  email: z.string().email('Geçersiz e-posta adresi')
-});
-
-type EmailFormValues = z.infer<typeof emailSchema>;
-
 export default function Footer() {
   const { t, language } = useLanguage();
-  const { register, handleSubmit, reset, formState: { errors, isSubmitSuccessful } } = useForm<EmailFormValues>({
-    resolver: zodResolver(emailSchema)
-  });
-
-  const onSubmit = (data: EmailFormValues) => {
-    // In legacy it used an AJAX post, we'll simulate a success notification
-    console.log('Newsletter signup:', data.email);
-    reset();
-  };
 
   const sectors = homeSectors.map(s => ({
     slug: s.slug,
@@ -50,8 +32,8 @@ export default function Footer() {
       {/* Top Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {/* Brand & Newsletter */}
-          <div className="space-y-6">
+          {/* Brand Info */}
+          <div className="space-y-5">
             <Link href={`/${language}`} className="inline-block">
               <Image
                 src="/logo.png"
@@ -64,36 +46,18 @@ export default function Footer() {
             <p className="text-slate-400 text-xs leading-relaxed">
               {t('ui.hero_desc')}
             </p>
-            <div className="space-y-3">
-              <h4 className="text-white text-xs font-bold tracking-wider uppercase">{t('form.newsletter')}</h4>
-              <form onSubmit={handleSubmit(onSubmit)} className="space-y-2">
-                <div className="flex gap-2 max-w-sm">
-                  <input
-                    type="email"
-                    placeholder={t('form.newsletter_placeholder')}
-                    {...register('email')}
-                    className="flex-1 px-4 py-2 text-xs rounded-lg bg-slate-800 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                  />
-                  <button
-                    type="submit"
-                    className="px-4 py-2 text-xs font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors cursor-pointer"
-                  >
-                    {t('form.newsletter_btn')}
-                  </button>
-                </div>
-                {errors.email && (
-                  <p className="text-red-400 text-[10px] font-medium">{errors.email.message}</p>
-                )}
-                {isSubmitSuccessful && (
-                  <p className="text-emerald-400 text-[10px] font-medium">{t('form.newsletter_success')}</p>
-                )}
-              </form>
+            <div className="pt-2">
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-[10px] font-semibold tracking-wider uppercase bg-blue-950/80 text-blue-400 border border-blue-800/60">
+                IATF 16949 & ISO 9001
+              </span>
             </div>
           </div>
 
           {/* Sektörler */}
           <div>
-            <h3 className="text-white text-xs font-bold tracking-wider uppercase mb-6 border-l-2 border-blue-500 pl-3">{t('ui.categories')}</h3>
+            <h3 className="text-white text-xs font-bold tracking-wider uppercase mb-6 border-l-2 border-blue-500 pl-3">
+              {t('ui.categories')}
+            </h3>
             <ul className="space-y-2.5">
               {sectors.map((item, idx) => (
                 <li key={idx}>
@@ -107,7 +71,9 @@ export default function Footer() {
 
           {/* Hızlı Erişim */}
           <div>
-            <h3 className="text-white text-xs font-bold tracking-wider uppercase mb-6 border-l-2 border-blue-500 pl-3">{t('ui.quick_links')}</h3>
+            <h3 className="text-white text-xs font-bold tracking-wider uppercase mb-6 border-l-2 border-blue-500 pl-3">
+              {t('ui.quick_links')}
+            </h3>
             <ul className="grid grid-cols-2 gap-x-4 gap-y-2.5">
               {quickLinks.map((item, idx) => (
                 <li key={idx}>
@@ -122,7 +88,9 @@ export default function Footer() {
           {/* İletişim Bilgileri */}
           <div className="space-y-6">
             <div>
-              <h3 className="text-white text-xs font-bold tracking-wider uppercase mb-6 border-l-2 border-blue-500 pl-3">{t('nav.iletisim')}</h3>
+              <h3 className="text-white text-xs font-bold tracking-wider uppercase mb-6 border-l-2 border-blue-500 pl-3">
+                {t('nav.iletisim')}
+              </h3>
               <ul className="space-y-3.5 text-xs text-slate-400">
                 <li className="flex items-start gap-3">
                   <MapPin className="h-4 w-4 text-blue-500 flex-shrink-0 mt-0.5" />
@@ -149,7 +117,11 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="p-2 bg-slate-800 hover:bg-blue-600 rounded-lg text-slate-350 hover:text-white transition-all cursor-pointer flex items-center justify-center"
                 >
-                  <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                  <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                  </svg>
                 </a>
                 <a
                   href={siteConfig.socials.facebook}
@@ -157,7 +129,9 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="p-2 bg-slate-800 hover:bg-blue-600 rounded-lg text-slate-350 hover:text-white transition-all cursor-pointer flex items-center justify-center"
                 >
-                  <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                  <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                  </svg>
                 </a>
               </div>
             </div>
