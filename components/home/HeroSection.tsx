@@ -75,7 +75,6 @@ export default function HeroSection() {
         }}
       >
         <source src="/site/Library/images/video.mp4" type="video/mp4" />
-        <source src="/site/library/images/video.mp4" type="video/mp4" />
       </video>
 
       {/* Modern Gradient Overlay */}
